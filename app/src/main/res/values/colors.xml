@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EF6C00</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darker_gray">#ECEFF1</color>
+    <color name="selectedTabColor">@color/white</color>
+    <color name="tabSelectedTextColor">@color/white</color>
+    <color name="unselectedSettingsTabTextColor">#B2FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="item_color">#ECEFF1</color>
+    <color name="colorScreen">@color/white</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="red">#D50000</color>
+    <color name="homeItemColor">#ECEFF1</color>
+    <color name="green">#008b00</color>
+</resources>

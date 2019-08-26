@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/placeFromImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_place_from"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/placeFromTextView"
+            app:layout_constraintTop_toTopOf="@+id/placeFromTextView"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/placeFromTextView"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:hint="@string/place_from"
+            android:textSize="18sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/placeFromImageView"/>
+
+    <View
+            android:id="@+id/placeFromDivider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/darker_gray"
+            app:layout_constraintEnd_toEndOf="@id/placeFromTextView"
+            app:layout_constraintStart_toStartOf="@id/placeFromTextView"
+            app:layout_constraintTop_toBottomOf="@id/placeFromTextView"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/placeToImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_place_to"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/placeToTextView"
+            app:layout_constraintTop_toBottomOf="@id/placeFromImageView"
+            app:layout_constraintTop_toTopOf="@+id/placeToTextView"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/placeToTextView"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:hint="@string/place_to"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/placeToImageView"
+            app:layout_constraintTop_toBottomOf="@id/placeFromImageView"/>
+
+    <View
+            android:id="@+id/placeToDivider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/darker_gray"
+            app:layout_constraintEnd_toEndOf="@id/placeToTextView"
+            app:layout_constraintStart_toStartOf="@id/placeToTextView"
+            app:layout_constraintTop_toBottomOf="@id/placeToTextView"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buildRouteButton"
+            style="@style/BaseButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:drawableEnd="@drawable/ic_check"
+            android:text="@string/create_directions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/placeToDivider"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

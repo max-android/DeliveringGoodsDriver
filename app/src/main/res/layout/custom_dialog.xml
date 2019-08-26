@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageViewDialog"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="18dp"
+                android:visibility="gone"
+                tools:src="@tools:sample/avatars"
+                tools:visibility="visible"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewTitle"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:lineSpacingExtra="4sp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="Вопрос?"
+                tools:visibility="visible"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewMessage"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:lineSpacingExtra="8sp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                tools:text="Информация"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="end">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textViewNegative"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:padding="8dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle=""
+                    android:visibility="gone"
+                    app:textAllCaps="true"
+                    tools:text="Отмена"
+                    tools:visibility="visible"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textViewPositive"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="24dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:padding="8sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:textAllCaps="true"
+                    tools:text="ДА"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

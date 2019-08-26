@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corners_round"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        app:behavior_hideable="true"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@fonts/roboto_medium"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Здесь должен быть текст"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/loginLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:hintTextColor="@color/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginTextInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@fonts/roboto_regular"
+                android:hint="hint"
+                android:imeOptions="actionDone"
+                android:inputType="textAutoComplete"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:theme="@style/EditTextStyle"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/standart_button_selector"
+            android:fontFamily="@fonts/roboto_regular"
+            android:foreground="?selectableItemBackground"
+            android:text="text"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+</LinearLayout>

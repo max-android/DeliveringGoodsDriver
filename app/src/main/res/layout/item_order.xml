@@ -1,0 +1,108 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardCornerRadius="2dp"
+            app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:foreground="?selectableItemBackground"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/task_item_white_ripple">
+
+            <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guidelineNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.25"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guidelineDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.55"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/numberOrderTextView"
+                    style="@style/BaseTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/number_order"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineNumber"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/valueNumberOrderTextView"
+                    style="@style/BaseTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineNumber"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineDate"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="1234567"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dateOrderTextView"
+                    style="@style/BaseTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineDate"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="12:30-14:00"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/addressOrderTextView"
+                    style="@style/BaseTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/address"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numberOrderTextView"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/nameAddressOrderTextView"
+                    style="@style/BaseTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"
+                    android:singleLine="false"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/addressOrderTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/numberOrderTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:text="Московский проспект д.25"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

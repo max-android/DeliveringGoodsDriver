@@ -1,0 +1,35 @@
+<vector android:autoMirrored="true" android:height="66dp"
+    android:viewportHeight="66" android:viewportWidth="58"
+    android:width="58dp" xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="1" android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M29,29m-21,0a21,21 0,1 1,42 0a21,21 0,1 1,-42 0"
+        android:strokeColor="#00000000" android:strokeWidth="1"/>
+    <path android:fillColor="#FFFFFF" android:fillType="evenOdd"
+        android:pathData="M29,29m-20.75,0a20.75,20.75 0,1 1,41.5 0a20.75,20.75 0,1 1,-41.5 0"
+        android:strokeLineJoin="miter" android:strokeWidth="0.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:endX="29" android:endY="49.3439"
+                android:startX="29" android:startY="8.25" android:type="linear">
+                <item android:color="#00000000" android:offset="0"/>
+                <item android:color="#05000000" android:offset="0.8"/>
+                <item android:color="#0A000000" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#00000000" android:fillType="evenOdd"
+        android:pathData="M29,29m-20.75,0a20.75,20.75 0,1 1,41.5 0a20.75,20.75 0,1 1,-41.5 0"
+        android:strokeLineJoin="miter" android:strokeWidth="0.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:endX="29" android:endY="49.75"
+                android:startX="29" android:startY="8.25" android:type="linear">
+                <item android:color="#1EFFFFFF" android:offset="0"/>
+                <item android:color="#0FFFFFFF" android:offset="0.2"/>
+                <item android:color="#00FFFFFF" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#777777" android:fillType="evenOdd"
+        android:pathData="M37.7266,19.943l-7.7146,23.1601l-4.6313,-8.4885l-9.1734,-3.0791z"
+        android:strokeColor="#00000000" android:strokeWidth="1"/>
+</vector>

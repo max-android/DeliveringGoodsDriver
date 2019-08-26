@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">DeliveringGoods</string>
+    <string name="app_name_top">DeliveringGoods</string>
+    <string name="home">Главная</string>
+    <string name="tasks">Заказы</string>
+    <string name="map">Карта</string>
+    <string name="settings">Настройки</string>
+    <string name="profile">Профиль</string>
+    <string name="search">Поиск</string>
+    <string name="info">О приложении</string>
+    <string name="connectivity_status_text">Нет соединения!</string>
+    <string name="code_info">Информация:</string>
+
+    <!--login-registration-->
+    <string name="login_welcome">Добро пожаловать!</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="mail_hint">Почта</string>
+    <string name="signIn">Войти</string>
+    <string name="null_credentials">Пользователь с такми учетными данными не найден!</string>
+    <string name="incorrect_username_or_password">Неправильный логин или пароль</string>
+    <string name="continue_sign_in_to_your_account">Для продолжения выполните вход в свой аккаунт</string>
+    <string name="new_user">Новый пользователь?</string>
+    <string name="register">Зарегистрируйтесь</string>
+    <string name="do_register">Зарегистрироваться</string>
+    <string name="registration">Регистрация</string>
+
+    <!--home-->
+    <string name="select_shift_title">Выбора смены:</string>
+    <string name="select_shift_success">Успешный выбор смены</string>
+    <string name="select_shift_no_success">Выберите другой вид смены</string>
+
+    <!--info-->
+    <string name="user_agreement">Пользовательское соглашение</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="terms_delivery">Условия доставки</string>
+
+    <!--dialogs-->
+    <string name="positive_value">ДА</string>
+    <string name="negative_value">НЕТ</string>
+    <string name="ok_value">ОК</string>
+    <string name="cancel_value">ОТМЕНА</string>
+    <string name="no_connect">Нет соединения!</string>
+    <string name="confirm_operation">Подтвердите операцию!</string>
+    <string name="no_connect_message">Для работы приложения необходимо подключить связь</string>
+
+    <!--profile-->
+    <string name="logout">Выйти</string>
+    <string name="logout_error">Попробуйте заново разлогиниться!!!</string>
+    <string name="permission_file_sistem_explanation">Приложению требуется доступ к файловой системе</string>
+    <string name="permission_write_granted">Разрешение на чтение и запись файлов было предоставлено</string>
+    <string name="permission_write_denied">Чтение и запись файлов запрещена</string>
+    <string name="profile_save">Выбранное изображение профиля сохранено!</string>
+    <string name="profile_save_error">Ошибка сохранения изображения профиля!</string>
+    <string name="do_photo_car">сделать фото авто</string>
+
+    <!--settings-->
+    <string name="i_on_my_way">Я в пути</string>
+    <string name="receive_messages">Получать сообщения</string>
+    <string name="permission_location_explanation">Приложению требуется доступ к определению местоположения</string>
+    <string name="permission_location_granted">Разрешение на местоположение было предоставлено</string>
+    <string name="permission_location_denied">Определение местоположения запрещено</string>
+    <string name="receive_push_messages">Push-уведомления</string>
+
+
+    <!--geo-service-->
+    <string name="enable_sending_of_coordinates">Включена отправка координатов</string>
+    <string name="click_go_application">Кликните для перехода в приложение</string>
+    <string name="started_sending_coordinates">Запущена отправка координатов</string>
+    <string name="connection_failed">Connection Failed</string>
+
+    <!--orders-->
+    <string name="number_order">№ Заказа:</string>
+    <string name="address">Адрес доставки:</string>
+    <string name="item_info">Доставка осуществляется только из известных и популярных сетей гипермаркетов, прямо с
+        полок. Все продукты сертифицированы и прошли соответствующий контроль!
+    </string>
+    <string name="time_order">%s ,мин.</string>
+    <string name="price_order">%s ,руб.</string>
+    <string name="number_order_value">№ Заказа %s</string>
+    <string name="accept_order">Принять заказ</string>
+    <string name="dialog_accept_order">Вы подтверждаете приянтие заказа и его выполнение в заданные промежуток
+        времени?
+    </string>
+    <string name="info_about_confirm_order">Информация о подтверждении</string>
+    <string name="negative_confirm_order">Заказ не подтвержден!!!</string>
+    <string name="positive_confirm_order">Заказ подтвержден!!!</string>
+
+    <!--map-->
+    <string name="progress_building_route">Построение маршрута…</string>
+    <string name="my_location">Мое местоположение</string>
+    <string name="my_target">Цель</string>
+    <string name="error_no_maps">Не удалось запустить приложение карты :(</string>
+    <string name="enable_gps_on_your_device">Включить gps на устройстве ?</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="user_tag">"user location tag"</string>
+    <string name="destination_tag">"destination location tag"</string>
+    <string name="create_directions">"Построить маршрут"</string>
+    <string name="place_from">Откуда</string>
+    <string name="place_to">Куда</string>
+
+    <!--photo-->
+    <string name="permission_camera_explanation">Приложению требуется доступ к камере ифайловой системе</string>
+    <string name="permission_camera_granted">Разрешение на камеру было предоставлено</string>
+    <string name="permission_camera_denied">Разрешение на камеру запрещено</string>
+    <string name="file_not_created">Файл не создан</string>
+    <string name="new_photo">новое фото</string>
+    <string name="error_send_photo">Попробуйте повторить отправку фото авто</string>
+    <string name="error_save_photo">Фото не сохранилось в файловую систему - поробуйте заново</string>
+</resources>

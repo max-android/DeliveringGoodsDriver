@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:background="@color/colorPrimary"
+        android:minHeight="@dimen/top_toolbar_height">
+
+    <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            tools:text="asdasda"/>
+
+    <FrameLayout
+            android:id="@+id/frameLayoutTimer"
+            android:layout_width="@dimen/timer_width"
+            android:layout_height="2dp"
+            android:layout_below="@id/textViewMessage"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="8dp"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+        <ImageView
+                android:id="@+id/imageViewTimerForeground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/white"
+                tools:ignore="ContentDescription"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RequestView">
+        <attr name="backgroundViewColor" format="color" />
+        <attr name="baselineViewColor" format="color" />
+        <attr name="baselineViewColorTwo" format="color" />
+        <attr name="baselineViewColorThree" format="color" />
+        <attr name="baselineWidth" format="dimension" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ColumnView">
+        <attr name="columnBackgroundViewColor" format="color" />
+        <attr name="columnBaselineViewColor" format="color" />
+        <attr name="columnBaselineWidth" format="dimension" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleDiagramView">
+        <attr name="circle1BackgroundColor" format="color" />
+        <attr name="circle2BackgroundColor" format="color" />
+        <attr name="circle3BackgroundColor" format="color" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="AvatarCircleImage">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+        <attr name="civ_circle_background_color" format="color"/>
+    </declare-styleable>
+
+</resources>
+
